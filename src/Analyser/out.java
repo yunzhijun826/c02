@@ -7,8 +7,8 @@ import instruction.Operation;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.util.ArrayList;
-public class Output {
-    public static void Output(String name, ArrayList<String> global, ArrayList<FnInstruction> fnList) throws Exception{
+public class out {
+    public static void Out(String name, ArrayList<String> global, ArrayList<FnInstruction> fnList) throws Exception{
         FileOutputStream f = new FileOutputStream(new File(name));
         f.write(intToByte(0x72303b3e));
         f.write(intToByte(0x1));

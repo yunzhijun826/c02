@@ -1,6 +1,8 @@
+import Analyser.Analyser;
 import Tokenizer.StringIter;
 import Tokenizer.Tokenizer;
-import Analyser.Analyser;
+import error.CompileError;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
